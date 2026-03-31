@@ -1,0 +1,15 @@
+# Dual-Agent Graph-First Memory System
+# Core dependencies
+
+# Graph database (Kuzu - embedded graph DB)
+kuzu>=0.4.0
+
+# LLM APIs
+openai>=1.0.0  # For OpenRouter API access
+python-dotenv>=1.0.0  # Environment variables
+
+# Local LLM support (Ollama)
+requests>=2.31.0
+
+# Core Python utilities
+numpy>=1.24.0
